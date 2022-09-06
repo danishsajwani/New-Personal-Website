@@ -1,0 +1,189 @@
+body {
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 1em; /*1em = 16 font size which is 100%*/
+  color: #40514E
+}
+
+h1 {
+  font-size: 3.5rem;     /*100/16=6.25*90=562.5%*/
+  margin: 5px auto 0 auto;
+  font-family: 'Sacramento', cursive; /*font.google.com*/
+  color: #66BFBF;
+  line-height: 1.5;
+}
+
+h2 {
+  margin: 10px 0 10px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+span {
+  text-decoration: underline;
+}
+
+hr {
+  width: 5%;
+  border-color: grey;
+  border-style: dotted none none none;
+  border-width: 11px;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: dark blue;
+}
+
+a:hover {
+  color: red
+}
+
+.top {
+  background: #293462;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.middle {
+  text-align: center;
+}
+
+
+/* ----------------Class Selectors------------------*/
+.top-cloud {
+  position: relative;
+  left: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+}
+
+.profile{
+  width: 50%;
+  margin: 80px auto 40px auto;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 25%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+}
+
+.computer-pic {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-pic {
+  width: 25%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 50px 0 50px 0;
+  line-height: 2;
+}
+
+.bottom {
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  line-height: 3;
+}
+
+.contact-me-para {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.footer-link {
+  margin: 10px;
+}
+
+.btn {
+  background: #0924f0;
+  background-image: -webkit-linear-gradient(top, #0924f0, #96a4eb);
+  background-image: -moz-linear-gradient(top, #0924f0, #96a4eb);
+  background-image: -ms-linear-gradient(top, #0924f0, #96a4eb);
+  background-image: -o-linear-gradient(top, #0924f0, #96a4eb);
+  background-image: linear-gradient(to bottom, #0924f0, #96a4eb);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #fcfcfc;
+  font-size: 20px;
+  padding: 11px 18px 12px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00d7e6;
+  background-image: -webkit-linear-gradient(top, #00d7e6, #3498db);
+  background-image: -moz-linear-gradient(top, #00d7e6, #3498db);
+  background-image: -ms-linear-gradient(top, #00d7e6, #3498db);
+  background-image: -o-linear-gradient(top, #00d7e6, #3498db);
+  background-image: linear-gradient(to bottom, #00d7e6, #3498db);
+  text-decoration: none;
+}
+
+
+
+
+/*--------------Exercises HTML File CSS----------------*/
+.container {
+  background-color: grey;
+  width: 300px;
+  height: 300px;
+}
+
+.first {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  margin-left: 200px;
+  position: fixed;
+}
+
+.second {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  margin-left: 100px;
+  position: fixed;
+}
+
+.third {
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  position: fixed;
+}
